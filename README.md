@@ -1,4 +1,4 @@
-## Wyniki zapyta SQL
+## Wyniki zapytań SQL
 
 ### Zapytanie 2: Testy z więcej niż z 30 pacjentami
 ```sql
@@ -17,7 +17,7 @@ having count(distinct patient_id) > 30;
 | SNP Array |                         39 |
 
 
-### Zapytanie 2: Nazwy testów i obliczoną średnią liczbę wariantów dla każdego testu
+### Zapytanie 2: Nazwy testów i średnia liczba wariantów dla każdego testu
 ```sql
 select test_type,
 avg(var_count)
